@@ -6,23 +6,18 @@ body {
 
 .login-page {
     background-color: #F0F1FA;
-    min-height: 100vh;
-    width: auto;
     padding: 0;
-    display: flex;
+    height: 100vh;
+
 }
 
 .form-container {
     background-color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 400px;
     height: 450px;
-    transform: translate(-50%, -50%);
     border-radius: 15px;
     box-shadow: 3px 3px 10px 0px grey;
     padding: 30px;
+    margin-top: 15vh;
 }
 
 .textJudul {
