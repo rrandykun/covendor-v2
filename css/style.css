@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-page {
+    background-color: #F0F1FA;
+    min-height: 100vh;
+    width: auto;
+    padding: 0;
+    display: flex;
+}
+
+.form-container {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 450px;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 0px grey;
+    padding: 30px;
+}
+
+.textJudul {
+    font-family: 'Poppins', sans-serif;
+    color: #2D3170;
+}
+
+.textForm {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.text-hover {
+    text-decoration: none;
+    color: #EE6A0D;
+}
+
+.text-hover:hover {
+    font-weight: 500;
+    color: #EE6A0D;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+.input-group-text {
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #EE6A0D;
+    border-color: white;
+}
+
+.btn-primary:hover {
+    background-color: #ff7b1e;
+    border-color: #ff7b1e;
+}
+
+.btn-primary:focus {
+    background-color: #ff7b1e;
+    border-color: #ff7b1e;
+}
